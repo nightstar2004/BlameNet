@@ -259,7 +259,8 @@ public final class HtmlExporter implements Exporter {
                 .append(" -Algorithm SHA256</span> 与 manifest.json 中的值比对。</p>\n");
 
         sb.append("    <h3>免责声明</h3>\n");
-        sb.append("    <p class=\"hint\">本软件仅用于个人自有网络学习与故障自查，禁止商用、禁止变相捐赠牟利。")
+        sb.append("    <p class=\"hint\">本软件可用于个人自有网络学习与故障自查，也允许企业在自有且已获授权的内部环境中")
+                .append("用于商用设备网络故障诊断，但禁止将本软件或其修改版本单独作为商品销售或有偿授权。")
                 .append("软件按现状提供，不保证检测结果完全准确。用户不得使用本软件对非授权设备进行探测、扫描等操作；")
                 .append("违规使用带来的法律后果全部由使用者自行承担。</p>\n");
         sb.append("  </section>\n");
