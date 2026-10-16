@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- WinExe：Windows 图形程序，运行时不弹出命令行黑框 -->
+    <OutputType>WinExe</OutputType>
+    <!-- net48：依赖 Windows 自带的 .NET Framework 4.8，产物小、启动快 -->
+    <TargetFramework>net48</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>FolderPicker</AssemblyName>
+    <RootNamespace>FolderPicker</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+</Project>
